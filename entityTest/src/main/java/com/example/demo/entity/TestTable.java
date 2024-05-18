@@ -21,7 +21,7 @@ public class TestTable {
     @Column(nullable = false)
     private String username;
 
-    // 작성시간
+    // 작성시간 다시한번 더
     private LocalDateTime regTime;
     
     public TestTable(TestTableRequestDto requestDto) {
